@@ -31,7 +31,7 @@ export async function fetchRevenue() {
 }
 
 export async function fetchLatestInvoices() {
-  await new Promise((resolve, reject) => {
+  await new Promise((resolve, _reject) => {
     setTimeout(() => {
       console.log("debounce Page component");
       resolve(true);
